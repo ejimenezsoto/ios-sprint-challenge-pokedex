@@ -10,7 +10,7 @@
         <!--Pokedex-->
         <scene sceneID="5VY-td-3n5">
             <objects>
-                <tableViewController id="cGV-mN-TPp" sceneMemberID="viewController">
+                <tableViewController id="cGV-mN-TPp" customClass="PokedexTableViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="m8b-ja-dds">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,7 +48,7 @@
         <!--Search Poekmon-->
         <scene sceneID="euv-4R-uaW">
             <objects>
-                <viewController id="dvx-u2-UCA" sceneMemberID="viewController">
+                <viewController id="dvx-u2-UCA" customClass="SearchPokemonViewController" customModule="pokedex" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6b5-Y0-QHJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
